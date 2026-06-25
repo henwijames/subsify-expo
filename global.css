@@ -367,11 +367,11 @@
   }
 
   .modal-close {
-    @apply size-8 items-center justify-center rounded-full bg-muted;
+    @apply size-8 flex items-center justify-center rounded-full bg-muted;
   }
 
   .modal-close-text {
-    @apply text-lg font-sans-bold text-primary;
+    @apply text-lg font-sans-bold text-primary text-center leading-none;
   }
 
   .modal-body {
